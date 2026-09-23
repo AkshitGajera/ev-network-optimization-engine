@@ -1,0 +1,4 @@
+vehicle_id,distance_km,recharge_stops,is_feasible,total_stops
+1,1008.31,3,False,14
+2,1305.49,5,False,15
+3,570.15,2,True,12
