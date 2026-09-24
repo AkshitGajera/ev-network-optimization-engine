@@ -156,15 +156,5 @@ This executes the mathematical solvers, Pareto frontier sweeps, and fleet routin
 
 ---
 
-## 🎯 Interview Talking Points (Data Science & OR Roles)
-
-When presenting this project in technical interviews:
-- **Formulation Rigor**: *"I modeled charging placement as a Budgeted Maximal Covering Location Problem in standard canonical form ($Ax \le b$), solved using HiGHS branch-and-cut via SciPy."*
-- **Heuristic Comparison**: *"I benchmarked the exact solver against a marginal-benefit greedy heuristic, observing that while greedy runs in $O(M \cdot N)$ (<2ms), the exact MILP recovers 2–4% more demand coverage in constrained budget regimes."*
-- **Operational Integration**: *"Rather than treating location as a static problem, I tied it directly to fleet logistics (EVRP) by simulating delivery tours where battery SoC dictates dynamic detour routing to newly placed stations."*
-- **Business Sensitivity**: *"I implemented a Pareto frontier sweep that programmatically locates the knee-point of the investment curve, demonstrating where additional capital expenditure suffers from diminishing returns."*
-
----
-
 ## 📜 Author
 Akshit Gajera -- MSc Data Science
